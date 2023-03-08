@@ -1,0 +1,34 @@
+/* basic style set up for navbar */
+@import url("https://fonts.googleapis.com/css2?family=Engagement&family=Nunito:wght@200&family=Parisienne&family=Roboto+Serif:opsz,wght@8..144,100&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+nav{
+  color: aliceblue;
+}
+
+.logo{
+  border-radius: 50%;
+}
+.custom{
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: pink;
+}
+
+.navbar-nav li:hover{
+  background-color: rgba(55, 103, 75, 0.634);
+  border-bottom: 2px solid darkgreen;
+  
+}
+/* before hover li a white color */
+.navbar-nav li a{
+  color: white;
+}
+/* after click on hover same css */
+.navbar-nav li:hover a{
+  color: black !important;
+}
