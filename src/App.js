@@ -8,9 +8,10 @@ import Project from './components/Project/Project';
 import Blogs from './components/Blogs/Blogs';
 import Navbar from './components/Navbar/Navbar';
 import '../src/Assets/style.css'
+import Footer from './components/Footer/Footer';
 function App() {
   return (
-    <div className="App">
+    <>
       
       <Navbar />
       <Routes>
@@ -22,7 +23,8 @@ function App() {
         <Route path="/blogs" element={<Blogs />} />
 
       </Routes>
-    </div>
+      <Footer/>
+    </>
   );
 }
 
